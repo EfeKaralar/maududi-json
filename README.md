@@ -6,13 +6,13 @@ All 114 surahs — including surah introductions and per-verse commentary (tafsi
 
 ## CDN
 
-Files are served via [jsDelivr](https://www.jsdelivr.com/) directly from this repository. Replace `@main` with a tagged release (e.g. `@1.0.0`) for a stable URL.
+Files are served via [jsDelivr](https://www.jsdelivr.com/) directly from this repository.
 
-```
-https://cdn.jsdelivr.net/gh/EfeKaralar/maududi-json@main/dist/maududi.json
-https://cdn.jsdelivr.net/gh/EfeKaralar/maududi-json@main/dist/chapters/index.json
-https://cdn.jsdelivr.net/gh/EfeKaralar/maududi-json@main/dist/chapters/{chapterNumber}.json
-```
+| File | URL |
+|------|-----|
+| Full dataset | [dist/maududi.json](https://cdn.jsdelivr.net/gh/EfeKaralar/maududi-json@master/dist/maududi.json) |
+| Chapter index | [dist/chapters/index.json](https://cdn.jsdelivr.net/gh/EfeKaralar/maududi-json@master/dist/chapters/index.json) |
+| Single chapter | `https://cdn.jsdelivr.net/gh/EfeKaralar/maududi-json@master/dist/chapters/{chapterNumber}.json` |
 
 ## Dataset
 
