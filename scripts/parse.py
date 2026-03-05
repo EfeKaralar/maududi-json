@@ -37,7 +37,7 @@ from pathlib import Path
 _REPO_ROOT = Path(__file__).resolve().parents[1]
 RAW_FILE = _REPO_ROOT / "maududi_raw.txt"
 DIST_DIR = _REPO_ROOT / "dist"
-BY_SURAH_DIR = DIST_DIR / "by_surah"
+CHAPTERS_DIR = DIST_DIR / "chapters"
 
 # ── Patterns ──────────────────────────────────────────────────────────────────
 
@@ -299,12 +299,26 @@ def main() -> None:
     out_full.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"Written: {out_full}  ({out_full.stat().st_size // 1024} KB)")
 
-    # Write per-surah files
-    BY_SURAH_DIR.mkdir(parents=True, exist_ok=True)
+    # Write per-chapter files
+    CHAPTERS_DIR.mkdir(parents=True, exist_ok=True)
     for surah in data:
-        out = BY_SURAH_DIR / f"{surah['surah']:03d}.json"
+        out = CHAPTERS_DIR / f"{surah['surah']}.json"
         out.write_text(json.dumps(surah, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"Written: {BY_SURAH_DIR}/*.json  ({len(data)} files)")
+    print(f"Written: {CHAPTERS_DIR}/*.json  ({len(data)} files)")
+
+    # Write chapter index
+    index = [
+        {
+            "surah": s["surah"],
+            "name": s["name"],
+            "english_name": s["english_name"],
+            "verse_count": len(s["verses"]),
+        }
+        for s in data
+    ]
+    out_index = CHAPTERS_DIR / "index.json"
+    out_index.write_text(json.dumps(index, indent=2, ensure_ascii=False), encoding="utf-8")
+    print(f"Written: {out_index}")
 
     # Print summary
     total_verses = sum(len(s["verses"]) for s in data)

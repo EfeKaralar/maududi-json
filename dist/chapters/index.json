@@ -1,0 +1,686 @@
+[
+  {
+    "surah": 1,
+    "name": "Al Fatihah",
+    "english_name": "The Opening",
+    "verse_count": 7
+  },
+  {
+    "surah": 2,
+    "name": "Al Baqarah",
+    "english_name": "The Cow",
+    "verse_count": 286
+  },
+  {
+    "surah": 3,
+    "name": "Al i Imran",
+    "english_name": "The Family of Imran",
+    "verse_count": 199
+  },
+  {
+    "surah": 4,
+    "name": "An Nisa",
+    "english_name": "The Women",
+    "verse_count": 176
+  },
+  {
+    "surah": 5,
+    "name": "Al Maidah",
+    "english_name": "The Table Spread",
+    "verse_count": 120
+  },
+  {
+    "surah": 6,
+    "name": "Al Anaam",
+    "english_name": "The Cattle",
+    "verse_count": 165
+  },
+  {
+    "surah": 7,
+    "name": "Al Aaraf",
+    "english_name": "The Heights",
+    "verse_count": 206
+  },
+  {
+    "surah": 8,
+    "name": "Al Anfal",
+    "english_name": "The Spoils of War",
+    "verse_count": 75
+  },
+  {
+    "surah": 9,
+    "name": "At Taubah",
+    "english_name": "The Repentance",
+    "verse_count": 0
+  },
+  {
+    "surah": 10,
+    "name": "Yunus",
+    "english_name": "Jonah",
+    "verse_count": 108
+  },
+  {
+    "surah": 11,
+    "name": "Hud",
+    "english_name": "",
+    "verse_count": 123
+  },
+  {
+    "surah": 12,
+    "name": "Yusuf",
+    "english_name": "Joseph",
+    "verse_count": 111
+  },
+  {
+    "surah": 13,
+    "name": "Ar Ra'ad",
+    "english_name": "The Thunder",
+    "verse_count": 43
+  },
+  {
+    "surah": 14,
+    "name": "Ibrahim",
+    "english_name": "Abraham",
+    "verse_count": 52
+  },
+  {
+    "surah": 15,
+    "name": "Al Hijr",
+    "english_name": "The Rocky Tract",
+    "verse_count": 99
+  },
+  {
+    "surah": 16,
+    "name": "An Nahl",
+    "english_name": "The Honey Bee",
+    "verse_count": 128
+  },
+  {
+    "surah": 17,
+    "name": "Bani Israil",
+    "english_name": "The Children of Israel",
+    "verse_count": 111
+  },
+  {
+    "surah": 18,
+    "name": "Al Kahf",
+    "english_name": "The Cave",
+    "verse_count": 109
+  },
+  {
+    "surah": 19,
+    "name": "Maryam",
+    "english_name": "Mary",
+    "verse_count": 97
+  },
+  {
+    "surah": 20,
+    "name": "Ta Ha",
+    "english_name": "",
+    "verse_count": 133
+  },
+  {
+    "surah": 21,
+    "name": "Al Anbiyaa",
+    "english_name": "The Prophets",
+    "verse_count": 112
+  },
+  {
+    "surah": 22,
+    "name": "Al Hajj",
+    "english_name": "The Hajj",
+    "verse_count": 78
+  },
+  {
+    "surah": 23,
+    "name": "Al Muminoon",
+    "english_name": "The Believers",
+    "verse_count": 117
+  },
+  {
+    "surah": 24,
+    "name": "An Noor",
+    "english_name": "The Light",
+    "verse_count": 64
+  },
+  {
+    "surah": 25,
+    "name": "Al Furqan",
+    "english_name": "The Criterion",
+    "verse_count": 77
+  },
+  {
+    "surah": 26,
+    "name": "Ash Shuaraa",
+    "english_name": "The Poets",
+    "verse_count": 227
+  },
+  {
+    "surah": 27,
+    "name": "An Naml",
+    "english_name": "The Ant",
+    "verse_count": 93
+  },
+  {
+    "surah": 28,
+    "name": "Al Qasas",
+    "english_name": "The Story",
+    "verse_count": 88
+  },
+  {
+    "surah": 29,
+    "name": "Al Ankabut",
+    "english_name": "The Spider",
+    "verse_count": 69
+  },
+  {
+    "surah": 30,
+    "name": "Ar Rum",
+    "english_name": "The Romans",
+    "verse_count": 59
+  },
+  {
+    "surah": 31,
+    "name": "Luqman",
+    "english_name": "",
+    "verse_count": 34
+  },
+  {
+    "surah": 32,
+    "name": "As Sajdah",
+    "english_name": "The Prostration",
+    "verse_count": 30
+  },
+  {
+    "surah": 33,
+    "name": "Al Ahzab",
+    "english_name": "The Clans",
+    "verse_count": 73
+  },
+  {
+    "surah": 34,
+    "name": "Saba",
+    "english_name": "The Sabaeans",
+    "verse_count": 54
+  },
+  {
+    "surah": 35,
+    "name": "Fatir (The Originator), also known as Surah Al Malaika",
+    "english_name": "The Angels",
+    "verse_count": 45
+  },
+  {
+    "surah": 36,
+    "name": "Ya Sin",
+    "english_name": "",
+    "verse_count": 82
+  },
+  {
+    "surah": 37,
+    "name": "As Saaffat",
+    "english_name": "Those who set the ranks",
+    "verse_count": 181
+  },
+  {
+    "surah": 38,
+    "name": "Saad",
+    "english_name": "",
+    "verse_count": 88
+  },
+  {
+    "surah": 39,
+    "name": "Az Zumar",
+    "english_name": "The Troops",
+    "verse_count": 75
+  },
+  {
+    "surah": 40,
+    "name": "Al Mu'min",
+    "english_name": "The Believer",
+    "verse_count": 85
+  },
+  {
+    "surah": 41,
+    "name": "Ha Mim As Sajdah, also known as Surah Fussilat",
+    "english_name": "Explained in Detail",
+    "verse_count": 54
+  },
+  {
+    "surah": 42,
+    "name": "Ash Shura",
+    "english_name": "The Consultation",
+    "verse_count": 53
+  },
+  {
+    "surah": 43,
+    "name": "Az Zukhruf",
+    "english_name": "The Ornaments of Gold",
+    "verse_count": 89
+  },
+  {
+    "surah": 44,
+    "name": "Ad Dukhan",
+    "english_name": "The Smoke",
+    "verse_count": 58
+  },
+  {
+    "surah": 45,
+    "name": "At Jathiya",
+    "english_name": "The Kneeling",
+    "verse_count": 37
+  },
+  {
+    "surah": 46,
+    "name": "Al Ahgaf",
+    "english_name": "The Wind Curved Sand Dunes",
+    "verse_count": 35
+  },
+  {
+    "surah": 47,
+    "name": "Muhammad",
+    "english_name": "The Praised One",
+    "verse_count": 38
+  },
+  {
+    "surah": 48,
+    "name": "Al Fath",
+    "english_name": "The Victory",
+    "verse_count": 29
+  },
+  {
+    "surah": 49,
+    "name": "Al Hujaraat",
+    "english_name": "The Private Apartments",
+    "verse_count": 18
+  },
+  {
+    "surah": 50,
+    "name": "Qaf",
+    "english_name": "",
+    "verse_count": 45
+  },
+  {
+    "surah": 51,
+    "name": "Adh Dhariyat",
+    "english_name": "The Winds",
+    "verse_count": 59
+  },
+  {
+    "surah": 52,
+    "name": "At Tur",
+    "english_name": "The Mount",
+    "verse_count": 49
+  },
+  {
+    "surah": 53,
+    "name": "An Najm",
+    "english_name": "The Star",
+    "verse_count": 62
+  },
+  {
+    "surah": 54,
+    "name": "Al Qamar",
+    "english_name": "The Moon",
+    "verse_count": 55
+  },
+  {
+    "surah": 55,
+    "name": "Ar Rahman",
+    "english_name": "The Most Merciful",
+    "verse_count": 77
+  },
+  {
+    "surah": 56,
+    "name": "Al Wagia",
+    "english_name": "The Inevitable Event",
+    "verse_count": 93
+  },
+  {
+    "surah": 57,
+    "name": "Al Hadid",
+    "english_name": "The Iron",
+    "verse_count": 29
+  },
+  {
+    "surah": 58,
+    "name": "Al Mujadilah",
+    "english_name": "The Pleading Woman",
+    "verse_count": 22
+  },
+  {
+    "surah": 59,
+    "name": "Al Hashr",
+    "english_name": "The Banishment",
+    "verse_count": 24
+  },
+  {
+    "surah": 60,
+    "name": "Al Mumtahina",
+    "english_name": "The Woman Under Questioning",
+    "verse_count": 13
+  },
+  {
+    "surah": 61,
+    "name": "As Saff",
+    "english_name": "The Ranks",
+    "verse_count": 14
+  },
+  {
+    "surah": 62,
+    "name": "Al Jumuah",
+    "english_name": "The Friday Congregation",
+    "verse_count": 11
+  },
+  {
+    "surah": 63,
+    "name": "Al Munafiqoon",
+    "english_name": "The Hypocrites",
+    "verse_count": 11
+  },
+  {
+    "surah": 64,
+    "name": "At Taghabun",
+    "english_name": "Mutual Loss and Gain",
+    "verse_count": 18
+  },
+  {
+    "surah": 65,
+    "name": "At Talaq",
+    "english_name": "Divorce",
+    "verse_count": 12
+  },
+  {
+    "surah": 66,
+    "name": "At Tahrim",
+    "english_name": "The Prohibition",
+    "verse_count": 12
+  },
+  {
+    "surah": 67,
+    "name": "Al Mulk",
+    "english_name": "The Kingdom",
+    "verse_count": 30
+  },
+  {
+    "surah": 68,
+    "name": "Al Qalam",
+    "english_name": "The Pen",
+    "verse_count": 52
+  },
+  {
+    "surah": 69,
+    "name": "Al Haaqqa",
+    "english_name": "The Inevitable",
+    "verse_count": 52
+  },
+  {
+    "surah": 70,
+    "name": "Al Maarij",
+    "english_name": "The Ascending Steps",
+    "verse_count": 44
+  },
+  {
+    "surah": 71,
+    "name": "Nuh",
+    "english_name": "Noah",
+    "verse_count": 28
+  },
+  {
+    "surah": 72,
+    "name": "Al Jinn",
+    "english_name": "The Jinn",
+    "verse_count": 28
+  },
+  {
+    "surah": 73,
+    "name": "Al Muzzammil",
+    "english_name": "The One Who is Covered Up",
+    "verse_count": 20
+  },
+  {
+    "surah": 74,
+    "name": "Al Muddaththir",
+    "english_name": "The Cloaked One",
+    "verse_count": 56
+  },
+  {
+    "surah": 75,
+    "name": "Al Qiyama",
+    "english_name": "The Resurrection",
+    "verse_count": 40
+  },
+  {
+    "surah": 76,
+    "name": "Al Insan (Man), also known as Surah Ad Dahr",
+    "english_name": "Time",
+    "verse_count": 31
+  },
+  {
+    "surah": 77,
+    "name": "Al Mursalat",
+    "english_name": "The Winds Which Are Sent",
+    "verse_count": 50
+  },
+  {
+    "surah": 78,
+    "name": "An Naba",
+    "english_name": "The News",
+    "verse_count": 40
+  },
+  {
+    "surah": 79,
+    "name": "Naziat",
+    "english_name": "Those Who Tear Out",
+    "verse_count": 45
+  },
+  {
+    "surah": 80,
+    "name": "Abasa",
+    "english_name": "He Frowned",
+    "verse_count": 41
+  },
+  {
+    "surah": 81,
+    "name": "At Takwir",
+    "english_name": "The Folding Up",
+    "verse_count": 29
+  },
+  {
+    "surah": 82,
+    "name": "Al Infitar",
+    "english_name": "The Cleaving",
+    "verse_count": 19
+  },
+  {
+    "surah": 83,
+    "name": "Al Mutaffifin",
+    "english_name": "Those Who Deal in Fraud",
+    "verse_count": 36
+  },
+  {
+    "surah": 84,
+    "name": "Inshiqaq",
+    "english_name": "The Splitting",
+    "verse_count": 25
+  },
+  {
+    "surah": 85,
+    "name": "Al Burooj",
+    "english_name": "The Constellations",
+    "verse_count": 22
+  },
+  {
+    "surah": 86,
+    "name": "Al Tariq",
+    "english_name": "The Morning Star",
+    "verse_count": 17
+  },
+  {
+    "surah": 87,
+    "name": "Al Ala",
+    "english_name": "The Most High",
+    "verse_count": 19
+  },
+  {
+    "surah": 88,
+    "name": "Al Ghashiya",
+    "english_name": "The Overwhelming Event",
+    "verse_count": 26
+  },
+  {
+    "surah": 89,
+    "name": "Al Fajr",
+    "english_name": "The Dawn",
+    "verse_count": 30
+  },
+  {
+    "surah": 90,
+    "name": "Al Balad",
+    "english_name": "The City",
+    "verse_count": 20
+  },
+  {
+    "surah": 91,
+    "name": "As Shams",
+    "english_name": "The Sun",
+    "verse_count": 15
+  },
+  {
+    "surah": 92,
+    "name": "Al Lail",
+    "english_name": "The Night",
+    "verse_count": 21
+  },
+  {
+    "surah": 93,
+    "name": "Ad Dhuha",
+    "english_name": "The Morning Light",
+    "verse_count": 11
+  },
+  {
+    "surah": 94,
+    "name": "Al Inshirah",
+    "english_name": "The Opening Up",
+    "verse_count": 8
+  },
+  {
+    "surah": 95,
+    "name": "At Tin",
+    "english_name": "The Fig",
+    "verse_count": 8
+  },
+  {
+    "surah": 96,
+    "name": "Al Alaq",
+    "english_name": "The Clot",
+    "verse_count": 19
+  },
+  {
+    "surah": 97,
+    "name": "Al Qadr",
+    "english_name": "Power",
+    "verse_count": 5
+  },
+  {
+    "surah": 98,
+    "name": "Al Bayyina",
+    "english_name": "The Clear Evidence",
+    "verse_count": 8
+  },
+  {
+    "surah": 99,
+    "name": "Az Zalzala",
+    "english_name": "The Earthquake",
+    "verse_count": 8
+  },
+  {
+    "surah": 100,
+    "name": "Al Adiyat",
+    "english_name": "Those That Run",
+    "verse_count": 11
+  },
+  {
+    "surah": 101,
+    "name": "Al Qaria",
+    "english_name": "The Disaster",
+    "verse_count": 11
+  },
+  {
+    "surah": 102,
+    "name": "At Takathur",
+    "english_name": "The Mutual Rivalry",
+    "verse_count": 8
+  },
+  {
+    "surah": 103,
+    "name": "Al Asr",
+    "english_name": "The Declining Day, The Time",
+    "verse_count": 3
+  },
+  {
+    "surah": 104,
+    "name": "Al Humaza",
+    "english_name": "The One Who Slanders",
+    "verse_count": 9
+  },
+  {
+    "surah": 105,
+    "name": "Al Fil",
+    "english_name": "The Elephant",
+    "verse_count": 4
+  },
+  {
+    "surah": 106,
+    "name": "Quraish",
+    "english_name": "",
+    "verse_count": 4
+  },
+  {
+    "surah": 107,
+    "name": "Al Ma'un",
+    "english_name": "The Small Kindnesses",
+    "verse_count": 7
+  },
+  {
+    "surah": 108,
+    "name": "Al Kauthar",
+    "english_name": "The Abundance",
+    "verse_count": 3
+  },
+  {
+    "surah": 109,
+    "name": "Al Kafirun",
+    "english_name": "The Disbelievers",
+    "verse_count": 6
+  },
+  {
+    "surah": 110,
+    "name": "An Nasr",
+    "english_name": "The Help",
+    "verse_count": 3
+  },
+  {
+    "surah": 111,
+    "name": "Al-Masad",
+    "english_name": "The Flame",
+    "verse_count": 5
+  },
+  {
+    "surah": 112,
+    "name": "Al Ikhlas",
+    "english_name": "The Purity",
+    "verse_count": 4
+  },
+  {
+    "surah": 113,
+    "name": "Al Falaq",
+    "english_name": "The Daybreak",
+    "verse_count": 5
+  },
+  {
+    "surah": 114,
+    "name": "An Nas",
+    "english_name": "Mankind",
+    "verse_count": 6
+  }
+]
