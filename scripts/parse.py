@@ -70,6 +70,13 @@ _ARABIC_BLOCK = re.compile(r"[\u0600-\u06ff\u0750-\u077f\ufb50-\ufdff\ufe70-\ufe
 # Repeated page-break noise lines (short lines of symbols / single chars)
 _NOISE_LINE = re.compile(r"^[\s\W]{0,5}$")
 
+# Arabic section-header OCR artifacts: "42 gals s81s641)...", "4 oxi ndessls..."
+# These start with a verse/section number + space (NOT digit+period+space like real footnotes).
+_SECTION_NOISE = re.compile(r"^\d+\s")
+
+# Any 2+ consecutive ASCII letters — used to detect lines with no real alpha content.
+_ALPHA_WORD = re.compile(r"[a-zA-Z]{2,}")
+
 
 # ── Cleaning ──────────────────────────────────────────────────────────────────
 
@@ -94,6 +101,17 @@ def clean_block(text: str) -> str:
         else:
             result.append(ln)
             prev_blank = False
+    # Strip trailing OCR garbage lines (Arabic section-header artifacts).
+    # Conservative: only remove lines that are clearly noise:
+    #   - no alphabetic content at all (pure symbols/digits), OR
+    #   - start with digit+space (Arabic verse-number headers in OCR output;
+    #     real footnotes use "digit. text", not "digit text")
+    while result and result[-1]:
+        last = result[-1]
+        if _SECTION_NOISE.match(last) or not _ALPHA_WORD.search(last):
+            result.pop()
+        else:
+            break
     return "\n".join(result).strip()
 
 
@@ -163,12 +181,14 @@ def parse_verses(surah_num: int, text: str) -> list[dict]:
     Each verse record gets:
         - ayah: int
         - verse_text: the translation Maududi provides inline with the marker
+                      (may span multiple OCR-wrapped lines before the first footnote)
         - commentary: all footnote text that follows this verse marker up to the next
     """
     lines = text.splitlines()
     verses: list[dict] = []
     current: dict | None = None
     commentary_lines: list[str] = []
+    in_verse_continuation = False  # True between verse marker and first footnote/blank
 
     def flush() -> None:
         if current is not None:
@@ -179,7 +199,10 @@ def parse_verses(surah_num: int, text: str) -> list[dict]:
     for line in lines:
         stripped = clean_line(line)
         if not stripped:
-            if commentary_lines:
+            # A blank line ends verse-text continuation; subsequent lines are commentary
+            if in_verse_continuation:
+                in_verse_continuation = False
+            elif commentary_lines:
                 commentary_lines.append("")
             continue
 
@@ -193,6 +216,17 @@ def parse_verses(surah_num: int, text: str) -> list[dict]:
                 "commentary": "",
             }
             commentary_lines = []
+            in_verse_continuation = True
+            continue
+
+        if in_verse_continuation:
+            if _FOOTNOTE_START.match(stripped):
+                # First footnote signals end of verse translation
+                in_verse_continuation = False
+                commentary_lines.append(stripped)
+            else:
+                # Continuation of verse translation across OCR line-wrap
+                current["verse_text"] = (current["verse_text"].rstrip() + " " + stripped).strip()
             continue
 
         if current is not None:
